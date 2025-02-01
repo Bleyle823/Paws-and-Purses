@@ -57,7 +57,7 @@ const Header = ({ isErrorPage }: HeaderType) => {
     <header className={`site-header ${!onTop ? 'site-header--fixed' : ''}`}>
       <div className="container">
         <Link href="/">
-          <a>    <img src="/images/logos/logo2.png" alt="Paws & Purses🐾" style={{ width: "230px", height: "auto" }} />
+          <a>    <img src="/images/logos/logo23.png" alt="Paws & Purses🐾" style={{ width: "220px", height: "auto" }} />
           </a>
         </Link>
         <nav ref={navRef} className={`site-nav ${menuOpen ? 'site-nav--open' : ''}`}>
