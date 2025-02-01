@@ -1,4 +1,4 @@
-import Logo from '../../assets/icons/logo';
+//import Logo from '../../assets/icons/logo';
 
 const Footer = () => {
   return (
@@ -6,7 +6,8 @@ const Footer = () => {
       <div className="container">
         <div className="site-footer__top">
           <div className="site-footer__description">
-            <h6><Logo /> <span>PAWS</span> AND PURSE</h6>
+            <h6><a>    <img src="/images/logos/logo2.png" alt="Paws & Purses🐾" style={{ width: "230px", height: "auto" }} />
+            </a></h6>
             <p>Curating timeless elegance through our collection of premium ladies' handbags. 
               Where sophistication meets style, and every purse tells a story.</p>
             <ul className="site-footer__social-networks">
@@ -44,7 +45,7 @@ const Footer = () => {
       </div>
       <div className="site-footer__bottom">
         <div className="container">
-          <p>DESIGN BY ICEO.CO - © 2019. ALL RIGHTS RESERVED.</p>
+          {/* <p>Design By Bleyle</p> */}
         </div>
       </div>
     </footer>

@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import useOnClickOutside from 'use-onclickoutside';
 import Logo from '../../assets/icons/logo';
 import Link from 'next/link';
+
 import { useRouter } from 'next/router';
 import { RootState } from 'store';
 
@@ -56,7 +57,8 @@ const Header = ({ isErrorPage }: HeaderType) => {
     <header className={`site-header ${!onTop ? 'site-header--fixed' : ''}`}>
       <div className="container">
         <Link href="/">
-          <a><h1 className="site-logo"><Logo />PAWS AND PURSES</h1></a>
+          <a>    <img src="/images/logos/logo2.png" alt="Paws & Purses🐾" style={{ width: "230px", height: "auto" }} />
+          </a>
         </Link>
         <nav ref={navRef} className={`site-nav ${menuOpen ? 'site-nav--open' : ''}`}>
           <Link href="/products">
