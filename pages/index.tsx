@@ -12,14 +12,14 @@ const IndexPage = () => {
 
       <section className="featured">
         <div className="container">
-          <article style={{ backgroundImage: 'url(/images/featured-1.jpg)' }} className="featured-item featured-item-large">
+          <article style={{ backgroundImage: 'url(/images/products/product-1.jpg)' }} className="featured-item featured-item-large">
             <div className="featured-item__content">
               <h3>Bags more timeless than love because they last longer</h3>
               <a href="#" className="btn btn--rounded">View Collection</a>
             </div>
           </article>
 
-          <article style={{ backgroundImage: 'url(/images/featured-2.jpg)' }} className="featured-item featured-item-small-first">
+          <article style={{ backgroundImage: 'url(/images/products/product-3.jpg)' }} className="featured-item featured-item-small-first">
             <div className="featured-item__content">
               <h3>Luxury Designer Bags</h3>
               <a href="#" className="btn btn--rounded">Shop Now</a>
@@ -28,7 +28,7 @@ const IndexPage = () => {
 
           <article style={{ backgroundImage: 'url(/images/featured-3.jpg)' }} className="featured-item featured-item-small">
             <div className="featured-item__content">
-              <h3>Summer Collection</h3>
+              <h3>February Collection</h3>
               <a href="#" className="btn btn--rounded">VIEW ALL</a>
             </div>
           </article>
