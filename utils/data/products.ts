@@ -245,7 +245,7 @@ export const products = [
     sizes: ['xl', 'l'],
     colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
     images: [
-      '/images/products/product-5.jpg',
+      '/images/products/product-5.JPG',
     ],
     punctuation: {
       countOpinions: 81,
