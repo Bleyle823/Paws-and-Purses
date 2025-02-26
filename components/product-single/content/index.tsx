@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import productsColors from './../../../utils/data/products-colors';
-import productsSizes from './../../../utils/data/products-sizes';
-import productsTypes from './../../../utils/data/products-types';
-import CheckboxColor from './../../products-filter/form-builder/checkbox-color';
+//import productsColors from './../../../utils/data/products-colors';
+//import productsSizes from './../../../utils/data/products-sizes';
+//import productsTypes from './../../../utils/data/products-types';
+//import CheckboxColor from './../../products-filter/form-builder/checkbox-color';
 import { useDispatch, useSelector } from 'react-redux';
 import { some } from 'lodash';
 import { addProduct } from 'store/reducers/cart';
