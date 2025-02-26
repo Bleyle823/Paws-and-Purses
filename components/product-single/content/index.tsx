@@ -17,11 +17,11 @@ type ProductContent = {
 const Content = ({ product }: ProductContent) => {
   const dispatch = useDispatch();
   const [count, setCount] = useState<number>(1);
-  const [color, setColor] = useState<string>('');
-  const [itemSize, setItemSize] = useState<string>('');
+  // const [color, setColor] = useState<string>('');
+  // const [itemSize, setItemSize] = useState<string>('');
 
-  const onColorSet = (e: string) => setColor(e);
-  const onSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => setItemSize(e.target.value);
+  // const onColorSet = (e: string) => setColor(e);
+  // const onSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => setItemSize(e.target.value);
 
   const { favProducts } = useSelector((state: RootState) => state.user);
   const isFavourite = some(favProducts, productId => productId === product.id);
@@ -41,8 +41,8 @@ const Content = ({ product }: ProductContent) => {
       thumb: product.images ? product.images[0] : '',
       price: product.currentPrice,
       count: count,
-      color: color,
-      size: itemSize
+      color: '',
+      size: ''
     }
 
     const productStore = {
