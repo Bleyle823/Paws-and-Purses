@@ -119,7 +119,7 @@ export const products = [
   },
   {
     id: '3',
-    name: 'Crown Totes (Monogram Design) ',
+    name: 'Box Bag ',
     price: 119.99,
     quantityAvailable: 2,
     category: 'Hand Bag',
@@ -178,7 +178,7 @@ export const products = [
   },
   {
     id: '4',
-    name: 'Crown Totes (Monogram Design)',
+    name: 'Box Bag',
     price: 119.99,
     quantityAvailable: 2,
     category: 'Hand Bag',
@@ -235,125 +235,184 @@ export const products = [
       },
     ]
   },
-  // {
-  //   id: '5',
-  //   name: 'Hand Bag Summer Vibes',
-  //   price: 119.99,
-  //   quantityAvailable: 2,
-  //   category: 'Hand Bag',
-  //   currentPrice: 89.99,
-  //   sizes: ['xl', 'l'],
-  //   colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
-  //   images: [
-  //     '/images/products/product-5.jpg',
-  //   ],
-  //   punctuation: {
-  //     countOpinions: 81,
-  //     punctuation: 4.5,
-  //     votes: [
-  //       {
-  //         value: 1,
-  //         count: 1
-  //       },
-  //       {
-  //         value: 2,
-  //         count: 10
-  //       },
-  //       {
-  //         value: 3,
-  //         count: 10
-  //       },
-  //       {
-  //         value: 4,
-  //         count: 20
-  //       },
-  //       {
-  //         value: 5,
-  //         count: 40
-  //       },
-  //     ]
-  //   },
-  //   reviews: [
-  //     {
-  //       name: 'John Doe',
-  //       avatar: '/images/featured-1.jpg',
-  //       description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-  //       punctuation: 2
-  //     },
-  //     {
-  //       name: 'John Doe',
-  //       avatar: '/images/featured-1.jpg',
-  //       description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-  //       punctuation: 4
-  //     },
-  //     {
-  //       name: 'John Doe',
-  //       avatar: '/images/featured-1.jpg',
-  //       description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-  //       punctuation: 5
-  //     },
-  //   ]
-  // },
-  // {
-  //   id: '6',
-  //   name: 'Tote Bag',
-  //   price: 119.99,
-  //   discount: 30,
-  //   quantityAvailable: 2,
-  //   category: 'Hand Bag',
-  //   currentPrice: 89.99,
-  //   sizes: ['xl', 'l'],
-  //   colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
-  //   images: [
-  //     '/images/products/product-6.jpg',
-  //   ],
-  //   punctuation: {
-  //     countOpinions: 81,
-  //     punctuation: 4.5,
-  //     votes: [
-  //       {
-  //         value: 1,
-  //         count: 1
-  //       },
-  //       {
-  //         value: 2,
-  //         count: 10
-  //       },
-  //       {
-  //         value: 3,
-  //         count: 10
-  //       },
-  //       {
-  //         value: 4,
-  //         count: 20
-  //       },
-  //       {
-  //         value: 5,
-  //         count: 40
-  //       },
-  //     ]
-  //   },
-  //   reviews: [
-  //     {
-  //       name: 'John Doe',
-  //       avatar: '/images/featured-1.jpg',
-  //       description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-  //       punctuation: 2
-  //     },
-  //     {
-  //       name: 'John Doe',
-  //       avatar: '/images/featured-1.jpg',
-  //       description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-  //       punctuation: 4
-  //     },
-  //     {
-  //       name: 'John Doe',
-  //       avatar: '/images/featured-1.jpg',
-  //       description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-  //       punctuation: 5
-  //     },
-  //   ]
-  // },
+  {
+    id: '5',
+    name: 'Clutch Purse',
+    price: 119.99,
+    quantityAvailable: 2,
+    category: 'Hand Bag',
+    currentPrice: 2000,
+    sizes: ['xl', 'l'],
+    colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
+    images: [
+      '/images/products/product-5.jpg',
+    ],
+    punctuation: {
+      countOpinions: 81,
+      punctuation: 4.5,
+      votes: [
+        {
+          value: 1,
+          count: 1
+        },
+        {
+          value: 2,
+          count: 10
+        },
+        {
+          value: 3,
+          count: 10
+        },
+        {
+          value: 4,
+          count: 20
+        },
+        {
+          value: 5,
+          count: 40
+        },
+      ]
+    },
+    reviews: [
+      {
+        name: 'John Doe',
+        avatar: '/images/featured-1.jpg',
+        description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+        punctuation: 2
+      },
+      {
+        name: 'John Doe',
+        avatar: '/images/featured-1.jpg',
+        description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+        punctuation: 4
+      },
+      {
+        name: 'John Doe',
+        avatar: '/images/featured-1.jpg',
+        description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+        punctuation: 5
+      },
+    ]
+  },
+  {
+    id: '6',
+    name: 'Crown Totes (Monogram Design)',
+    price: 119.99,
+    discount: 30,
+    quantityAvailable: 2,
+    category: 'Hand Bag',
+    currentPrice: 2500,
+    sizes: ['xl', 'l'],
+    colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
+    images: [
+      '/images/products/product-6.jpg',
+    ],
+    punctuation: {
+      countOpinions: 81,
+      punctuation: 4.5,
+      votes: [
+        {
+          value: 1,
+          count: 1
+        },
+        {
+          value: 2,
+          count: 10
+        },
+        {
+          value: 3,
+          count: 10
+        },
+        {
+          value: 4,
+          count: 20
+        },
+        {
+          value: 5,
+          count: 40
+        },
+      ]
+    },
+    reviews: [
+      {
+        name: 'John Doe',
+        avatar: '/images/featured-1.jpg',
+        description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+        punctuation: 2
+      },
+      {
+        name: 'John Doe',
+        avatar: '/images/featured-1.jpg',
+        description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+        punctuation: 4
+      },
+      {
+        name: 'John Doe',
+        avatar: '/images/featured-1.jpg',
+        description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+        punctuation: 5
+      },
+    ]
+  },
+  {
+    id: '7',
+    name: 'Clutch Purse',
+    price: 119.99,
+    quantityAvailable: 2,
+    category: 'Hand Bag',
+    currentPrice: 2000,
+    sizes: ['xl', 'l'],
+    colors: "All Colors",
+    images: [
+      '/images/products/product-7.jpg',
+    ],
+    punctuation: {
+      countOpinions: 81,
+      punctuation: 4.5,
+      votes: [
+        {
+          value: 1,
+          count: 1
+        },
+        {
+          value: 2,
+          count: 10
+        },
+        {
+          value: 3,
+          count: 10
+        },
+        {
+          value: 4,
+          count: 20
+        },
+        {
+          value: 5,
+          count: 40
+        },
+      ]
+    },
+    reviews: [
+      {
+        name: 'John Doe',
+        avatar: '/images/featured-1.jpg',
+        description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+        punctuation: 2
+      },
+      {
+        name: 'John Doe',
+        avatar: '/images/featured-1.jpg',
+        description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+        punctuation: 4
+      },
+      {
+        name: 'John Doe',
+        avatar: '/images/featured-1.jpg',
+        description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+        punctuation: 5
+      },
+    ]
+  },
 ];
 
 export default products;

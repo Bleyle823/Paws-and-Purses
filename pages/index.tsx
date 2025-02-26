@@ -15,21 +15,21 @@ const IndexPage = () => {
           <article style={{ backgroundImage: 'url(/images/products/product-1.jpg)' }} className="featured-item featured-item-large">
             <div className="featured-item__content">
               <h3>Bags more timeless than love because they last longer</h3>
-              <a href="#" className="btn btn--rounded">View Collection</a>
+              <a href="https://paws-and-purses.vercel.app/products" className="btn btn--rounded">View Collection</a>
             </div>
           </article>
 
           <article style={{ backgroundImage: 'url(/images/products/product-3.jpg)' }} className="featured-item featured-item-small-first">
             <div className="featured-item__content">
               <h3>Luxury Designer Bags</h3>
-              <a href="#" className="btn btn--rounded">Shop Now</a>
+              <a href="" className="btn btn--rounded">Shop Now</a>
             </div>
           </article>
 
           <article style={{ backgroundImage: 'url(/images/featured-3.jpg)' }} className="featured-item featured-item-small">
             <div className="featured-item__content">
               <h3>February Collection</h3>
-              <a href="#" className="btn btn--rounded">VIEW ALL</a>
+              <a href="https://paws-and-purses.vercel.app/products" className="btn btn--rounded">VIEW ALL</a>
             </div>
           </article>
         </div>

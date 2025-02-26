@@ -11,7 +11,7 @@ export const productsTypes = [
   },
   {
     id: '3',
-    name: 'Shoulder Bag',
+    name: 'Box Bag',
     count: '56',
   },
   {

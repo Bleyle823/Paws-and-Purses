@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { EffectFade, Navigation } from 'swiper';
+//import Link from 'next/link';
 
 //Introduce SwiperCore for navigation
 SwiperCore.use([EffectFade, Navigation]);
@@ -14,18 +15,18 @@ const PageIntro = () => {
             <div className="container">
               <div className="page-intro__slide__content">
                 <h2>February Sale Collection</h2>
-                <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+                <a href="https://paws-and-purses.vercel.app/products" className="btn-shop"><i className="icon-right"></i>Shop now</a>
               </div>
             </div>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-2.jpg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-1.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
                 <h2>February Sale Collection</h2>
-                <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+                <a href="https://paws-and-purses.vercel.app/products" className="btn-shop"><i className="icon-right"></i>Shop now</a>
               </div>
             </div>
           </div>
