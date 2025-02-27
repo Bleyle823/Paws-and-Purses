@@ -11,11 +11,13 @@ const Footer = () => {
             <p>Curating timeless elegance through our collection of premium ladies' handbags. 
               Where sophistication meets style, and every purse tells a story.</p>
             <ul className="site-footer__social-networks">
-              <li><a href="#"><i className="icon-facebook"></i></a></li>
+              <li><a href="https://www.facebook.com/share/1EjuEz5YU1/"><i className="icon-facebook"></i></a></li>
               <li><a href="#"><i className="icon-twitter"></i></a></li>
-              <li><a href="#"><i className="icon-linkedin"></i></a></li>
+              {/* <li><a href="https://www.tiktok.com/@pawsandpurses7?_t=ZM-8uF7TBQ4tkc&_r=1"><i className="icon-linkedin"></i></a></li> */}
               <li><a href="https://www.instagram.com/pawsandpurses6?igsh=MzR5eDk3dW1lMHYw"><i className="icon-instagram"></i></a></li>
               <li><a href="#"><i className="icon-youtube-play"></i></a></li>
+              <li><a href="https://www.tiktok.com/@pawsandpurses7?_t=ZM-8uF7TBQ4tkc&_r=1">    <img src="/images/logos/tiktok.png" alt="tiktok" style={{ width: "25px", height: "auto" }} />
+              </a></li>
             </ul>
           </div>
           <div className="site-footer__links">
